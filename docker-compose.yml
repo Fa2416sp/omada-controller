@@ -27,10 +27,8 @@ services:
       - TZ=Etc/UTC
     volumes:
       - ./omada/data:/opt/tplink/EAPController/data
-      - ./omada/work:/opt/tplink/EAPController/work
       - ./omada/logs:/opt/tplink/EAPController/logs
 
 volumes:
   omada-data:
   omada-logs:
-  omada-work:
